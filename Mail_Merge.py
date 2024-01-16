@@ -52,7 +52,16 @@ for row in sheet.iter_rows(min_row=2, values_only=True):
     print(f"Email sent to {recipient_email}")
 
 #Print after all emails are sent
-print("All Emails Sent!")
+print("""
+🚀📧 All Systems Go!
+All Emails Sent Successfully! 📧🚀
+
+Congratulations! Your messages have been delivered to their destinations.
+If you have any questions or need further assistance, feel free to reach out.
+
+Thank you for using our email service! ✨
+""")
+
 
 # Disconnect from the server
 server.quit()
